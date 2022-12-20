@@ -22,19 +22,23 @@ const btn = document.querySelector(".card__results-btn")
 
 fiveBtn.addEventListener("click", ()=>{
     percentageTip = 0.05
-
+    fiveBtn.classList.add("btnChecked")
 })
 tenBtn.addEventListener("click", ()=>{
     percentageTip = 0.10
+    tenBtn.classList.add("btnChecked")
 })
 fifteenBtn.addEventListener("click", ()=>{
     percentageTip = 0.15
+    fifteenBtn.classList.add("btnChecked")
 })
 twentyfiveBtn.addEventListener("click", ()=>{
     percentageTip = 0.25
+    twentyfiveBtn.classList.add("btnChecked")
 })
 fiftyBtn.addEventListener("click", ()=>{
     percentageTip = 0.50
+    fiftyBtn.classList.add("btnChecked")
 })
 customInput.addEventListener("change", (val)=>{
     let num = parseInt(val.target.value) 
