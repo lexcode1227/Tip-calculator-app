@@ -22,22 +22,22 @@
       <div class="card__inputs">
         <div class="card__inputs-bill">
             <p >Bill</p>
-            <input type="number" name="bill" id="" placeholder="0">
+            <input type="number" name="bill" id="bill" placeholder="0">
         </div>
         <div class="card__inputs-tip">
           <p>Select Tip %</p>
           <div class="card__inputs-tip--btns">
-            <button class="btns">5%</button>
-            <button class="btns">10%</button>
-            <button class="btns">15%</button>
-            <button class="btns">25%</button>
-            <button class="btns">50%</button>
-            <input type="number" id="btnsCustom" class="btns" placeholder="Custom">
+            <button class="btns" id="fiveTip"> 5%</button>
+            <button class="btns" id="tenTip">10%</button>
+            <button class="btns" id="fifteenTip">15%</button>
+            <button class="btns" id="twentyfiveTip">25%</button>
+            <button class="btns" id="fiftyTip">50%</button>
+            <input type="number" id="btnCustom" class="btns" placeholder="Custom">
           </div>
         </div>
         <div class="card__inputs-people">
             <p >Number of People</p>
-            <input type="number" name="people" id="" placeholder="0">
+            <input type="number" name="people" id="peopleBtn" placeholder="0">
         </div>
       </div>
       <div class="card__results">
@@ -47,14 +47,14 @@
               <h4>Tip Amount</h4>
               <p>/ person</p>
             </div>
-            <h3><span id="tipByPerson">$4.27</span></h3>
+            <h3><span id="tipPerPerson">$0.00</span></h3>
           </div>
           <div class="card__results-calc--text">
             <div class="text">
               <h4>Total</h4>
               <p>/ person</p>
             </div>
-            <h3><span id="total">$00.00</span></h3>
+            <h3><span id="totalPerPerson">$00.00</span></h3>
           </div>
         </div>
         <button class="card__results-btn" type="submit">RESET</button>
@@ -64,6 +64,7 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">@lexcode</a>.
     </footer>
+    <script src="./app.js"></script>
   </main>
 </body>
 </html>
